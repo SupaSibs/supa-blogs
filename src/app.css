@@ -1,0 +1,40 @@
+* {
+    color: white;
+    text-decoration: none;
+    z-index: -1
+}
+input, textarea {
+    color: black;
+}
+main, body {
+    background-color: #333;
+ min-height: 100vh;
+padding: 0;
+ min-width: 100vw;
+ margin: 0;
+    position: relative;
+    z-index: 100;
+
+}
+
+
+
+nav {
+    width: 100vw;
+    max-width: 100vw;
+    background-color: #CF0000;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    position: relative;
+    z-index: 100;
+    box-shadow: 0 0 10px #AF0000;
+}
+
+nav ul  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    
+}
